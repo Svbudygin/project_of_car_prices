@@ -23,8 +23,7 @@ button_clicked = st.button("Before:")
 if button_clicked:
     st.write(data_old.head(15))
 data = pd.read_csv(data)
-button_clicked = st.button("After:")
-if button_clicked:
+if st.button("After:"):
     st.write(data.head(25))
 # overview
 """
