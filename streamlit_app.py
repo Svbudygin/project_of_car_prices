@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-import matplotlib as plt
+
 
 from links import *
 
@@ -32,6 +32,7 @@ st.image(paintings[1], use_column_width=True)
 st.image(paintings[2], use_column_width=True)
 st.text(open(gr4).read())
 try:
+    import matplotlib as plt
     fig, ax = plt.pyplot.subplots()
     ax = data.loc[data.brand == 'Suzuki', 'year'].plot(kind='hist', alpha=0.4, label='Suzuki')
     data.loc[data.brand == 'Kia', 'year'].plot(kind='hist', alpha=0.2, ax=ax, label='Kia')
