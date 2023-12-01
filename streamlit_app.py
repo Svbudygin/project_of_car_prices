@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-import matplotlib.pyplot as plt
+# import matplotlib.pyplot as plt
 
 from links import *
 
@@ -27,6 +27,7 @@ button_clicked = st.button("After:")
 if button_clicked:
     st.write(data.head(25))
 # overview
+"""
 st.text(open(gr1_overview).read())
 st.image(paintings[1], use_column_width=True)
 st.image(paintings[2], use_column_width=True)
@@ -39,6 +40,7 @@ ax.yaxis.set_label_text('Quantity')
 ax.set_title('The quantity of Suzuki, Skoda, and Kia on the market.')
 plt.legend()
 st.pyplot(fig)
+"""
 st.text(open(gr56).read())
 st.image(paintings[5], use_column_width=True)
 st.image(paintings[6], use_column_width=True)
