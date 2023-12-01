@@ -1,6 +1,6 @@
 DataCleanup = "static/texts/DataCleanup"
 gr1_overview = "static/texts/gr1+overview"
-data_old = 'all_regions.csv'
+data_old = 'all_regions_sm.csv'
 data = 'output.csv'
 paintings = [None]*20
 for i in range(1, 13):
