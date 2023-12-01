@@ -1,0 +1,21 @@
+A 3D graph illustrates the relationship between the year of manufacture, mileage and price of Mercedes, ГАЗ, BMW and others. Key observations include:
+
+Year compared to price:
+New cars tend to have higher prices, with different trends for each brand.
+Looking at our data, we can notice some interesting things:
+Mercedes-Benz has a lot of new cars, and they should be more expensive than ГАЗ.
+There are also quite a few ГАЗ with high mileage.
+In the BMW category, most cars are priced lower than Mercedes, with the exception of those that are more expensive than most ГАЗ cars.
+
+Mileage vs price:
+There are significant differences in mileage for each brand.
+
+Brand differentiation:
+Colored dots differentiate brands by highlighting unique pricing and mileage trends.
+
+Information for further analysis:
+Questions arise about factors influencing pricing, but to understand this we need more in-depth research.
+
+My next chart shows mileage by year considering the price (circle size) of the issue for different brands (so it depends on three or more parameters).
+You might think that if a car is newer, then its mileage is lower, and in fact this is true for most brands (eg Mercedes-Benz),
+but I found a brand (GAZ) that makes my previous statement not entirely reliable.

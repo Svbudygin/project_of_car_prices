@@ -1,0 +1,19 @@
+Price vs. Year (0.400534):
+
+The positive correlation between car price and the year of manufacture (0.40) indicates that, on average, newer cars tend to have higher prices, all this could be because of innovative technology, safety features, and overall improvements in newer models.
+
+Price vs. Power (0.608761):
+
+The strong positive correlation (0.61) between car price and horsepower implies that there is a substantial influence of engine power on pricing, so it really true, because buyers seem willing to pay more for cars with more horsepower.
+
+Year vs. Mileage (-0.363736):
+
+The negative correlation (-0.36) between the year of manufacture and mileage indicates that newer cars tend to have lower mileage. This obvious fact could be attributed to the fact that older cars are have accumulated more kilometers over time.
+
+Causation Note:
+
+Correlations show connections, but more evidence is needed to prove causation.
+
+Visualizing Data:
+
+Using graphs such as scatter plots or regression plots can help you better understand relationships. Visual examination may reveal nonlinear trends that are not fully captured by correlation coefficients, which is why I included the graphs.

@@ -1,0 +1,42 @@
+Prices of cars in Russia: DataSet analysis
+
+Introduction:
+
+Lots of people have their own cars, and some of them are know a lot about the pricing of different types of cars. But the fact is that no one knows exactly what prices depend on. So, someppeople suppose that sports cars from very expensive brands such as Ferrari or Lamborghini cost the most, but alas we have models of not so luxurious cars such as Mercedes that cost more. BMW fans may argue that prices depends only on horsepower and engine type. However, this logic falters when we take into account ancient cars, with only 20 hp, costing millions of dollars. Finally, prices are not hang on a singular factor. To move deeply into this complexity of connections between horsepower, mileage, and year, I intend to show correlations, graphs, and other patterns using tools like Pandas, Matplotlib, and Seaborn.
+
+Before we get started, take a quick look at a transcript of each of the items of my dataset, which I have collected especially for you.
+
+Brand:
+The brand refers to the mark of a car, such as Mercedes, BMW, Toyota, etc. It represents the manufacturer or company that produces the vehicle.
+Name:
+The name corresponds to the specific model of car brand, such as RX 300, ML, etc.
+Body Type:
+Provides information about the general shape and style of the vehicle, such as sedan, coupe, SUV, truck, etc.
+Color:
+Indicates the visual appearance of the color of vehicle.
+Fuel Type:
+Specifies the type of fuel the vehicle uses for its movement, such as gasoline, diesel, electric, hybrid, etc.
+Year:
+Represents the manufacturing year of the vehicle.
+Mileage:
+Refers to the total distance the vehicle has traveled, measured in kilometers.
+Transmission:
+Describes the type of transmission system in the vehicle, such as automatic or manual.
+Power:
+Indicates the amount of horse power the vehicle's engine produces.
+Price:
+Shows the cost of the vehicle.
+Vehicle Configuration:
+Describes the specific features of a particular vehicle.
+Engine Name:
+It identifies the engine model.
+Engine Displacement:
+Indicates the total volume of all the cylinders in the engine. It is usually measured in liters or cubic centimeters and provides information about the engine's size.
+Date:
+Represents a specific point in time, often used in this context to indicate a relevant date related to the vehicle, such as the manufacturing date or an important event.
+Location:
+In this context, location signifies the website where the car information is located.
+Link:
+The link directs to the specific website or page containing information about the car.
+Parse date
+Parse Date is the time when the information about the car was entered into the dataset.

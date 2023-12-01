@@ -1,0 +1,4 @@
+The next two graphs take the form of scatter plots,
+show the connections between price and year for all cars and Mercedes-Benz specifically in the dataset.
+These visualizations aim to provide a understanding of how the pricing figure changes the years for all cars and the specific brand.
+But in fact, a plot with all the cars will not give us much information, because it will be cluttered.

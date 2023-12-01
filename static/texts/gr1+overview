@@ -1,0 +1,9 @@
+Overview
+After cleaning up our file, adding a few columns, and rearranging the rows, we have observed the key statistics of our dataset.
+We now a lot about the values and items we will be working with.
+It's time to visualize straightforward aspects.
+
+I have chosen to create several line graphs that compare price and year,
+mileage and price, and mileage and power.
+As for the last comparison, it may initially seem unreasonable, but, as depicted below, there are some consistencies.
+Additionally, I have opted to generate statistics specifically for Mercedes-Benz, rather than for every car, to make my comparisons are more beautiful and to avoid cluttering the statistics.

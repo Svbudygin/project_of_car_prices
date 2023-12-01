@@ -1,0 +1,13 @@
+Data cleanup and Transformation
+
+In this table, there are numerous missing values. Let me work with them
+
+Initially, if the year information is absent, it would be great to compute the mean year for cars with the same name (model). However, if a vehicle's name uniquely identified, then finding its year becomes impossible, so I decided to drop this rows from my dataset.
+Similarly, I will apply the same strategy to the power column. To execute this, I will construct a pivot table and introduce two new columns, that will display the average horsepower and year for each car name (model).
+As for mileage, a NaN value implies a new vehicle with the mileage value of 0.
+Non-numeric columns will have NaN entries replaced with 'information not given,' as these columns serve just additional details.
+In the interest of making analysis more simple, I have dropped columns such as 'description,' 'link,' 'location,' and 'parse_date'.
+Furthermore, I have standardized the column names to lowercase.
+For "fuel type", "transmission", "name", "brand" and "price", I removed rows containing deleted NaN entries. This step is very important because attempting to replace NaN values in these columns is not possible due to lack of information.
+I have also change NaN values in the 'color' column by "Белый," following the common practice on Auto.ru, where an absence of color denotes as a white vehicle.
+Additionally, I have reset the indices and reform certain columns, including 'power,' 'year,' and 'mileage,' to integer format.
