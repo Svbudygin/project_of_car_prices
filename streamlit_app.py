@@ -31,6 +31,7 @@ st.text(open(gr1_overview).read())
 st.image(paintings[1], use_column_width=True)
 st.image(paintings[2], use_column_width=True)
 st.text(open(gr4).read())
+"""
 try:
     import matplotlib as plt
     fig, ax = plt.pyplot.subplots()
@@ -43,6 +44,7 @@ try:
     st.pyplot(fig)
 except:
     st.image(paintings[4], use_column_width=True)
+"""
 st.text(open(gr56).read())
 st.image(paintings[5], use_column_width=True)
 st.image(paintings[6], use_column_width=True)
