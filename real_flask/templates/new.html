@@ -1,0 +1,23 @@
+<table border="1" class="dataframe">
+    {% for i, name in enumerate({{result}}) %}
+    {% if i==0 %}
+    <thead>
+    <tr style="text-align: right;">
+        <th></th>
+        {% for x in name %}
+        <th>x</th>
+        {% endfor %}
+    </tr>
+
+    </thead>
+    {% endif %}
+    <tbody>
+    <tr >
+        <th></th>
+        {% for x in name %}
+        <th>x</th>
+        {% endfor %}
+    </tr>
+    </tbody>
+    {% endfor %}
+</table>
