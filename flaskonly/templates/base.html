@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     {% block style %}{% endblock %}
+    <title>{% block title %}{% endblock %}</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="/">Home</a>
+            <a href="/hypothesis">Hypothesis</a>
+            <a href="/data">Data</a>
+        </nav>
+    </header>
+    {% block body %}{% endblock %}
+    <footer>
+        Sergei Budygin 231-1 HSExLSE AMIxDSBA | <a href="https://github.com/Svbudygin/project_of_car_prices" target="_blank" rel="noopener noreferrer">GitHub</a>
+    </footer>
+
+</body>
+</html>

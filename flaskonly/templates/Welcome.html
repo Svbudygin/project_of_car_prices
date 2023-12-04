@@ -1,0 +1,144 @@
+{% extends 'base.html' %}
+{% block style %}
+<style>
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        background-color: #f4f4f4;
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+    }
+
+    header {
+        background-color: #333;
+        color: white;
+        padding: 20px;
+        text-align: center;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    nav {
+        display: flex;
+        justify-content: center;
+        margin-top: 15px;
+    }
+
+    nav a {
+        color: white;
+        text-decoration: none;
+        margin: 0 20px;
+        font-weight: bold;
+        transition: color 0.3s ease-in-out;
+    }
+
+    nav a:hover {
+        color: #ffd700;
+    }
+
+    .container-wrapper {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin: 20px;
+        flex: 1;
+    }
+
+    .container {
+        flex: 0 0 30%;
+        background-color: #fff;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        text-align: center;
+        margin-bottom: 20px;
+        border-radius: 8px;
+        overflow: hidden;
+    }
+
+    .container img {
+        max-width: 100%;
+        height: auto;
+        max-height: 150px; /* Высота, которую вы можете настроить по своему усмотрению */
+        border-radius: 8px;
+        margin-bottom: 15px;
+    }
+
+    .container h2 {
+        color: #333;
+    }
+
+    .container p {
+        color: #666;
+    }
+
+    .container button {
+        background-color: #4caf50;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease-in-out;
+    }
+
+    .container button:hover {
+        background-color: #45a049;
+    }
+
+    footer {
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 15px;
+        width: 100%;
+        box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    footer a {
+        color: #fff;
+        text-decoration: none;
+        font-weight: bold;
+    }
+</style>
+{% endblock %}
+{% block title %}
+Welcome
+{% endblock %}
+
+{% block body %}
+
+<div class="container-wrapper">
+    <div class="container">
+        <img src="../static/flsk.png" alt="Image 1">
+        <h2>MY WEBSITE</h2>
+        <p>There you can see my hypothesis and other data.</p>
+        <a href="/hypothesis">
+            <button>View Hypothesis!</button>
+        </a>
+    </div>
+
+    <div class="container">
+        <img src="../static/streamlite.png" alt="Image 2">
+        <h2>MY STREAMLITE PAGE</h2>
+        <p>There you can see most of my charts and comments on them.</p>
+        <a href="https://projectofcarprices-6dxgaarb9tgumjhp2eeyey.streamlit.app" target="_blank"
+           rel="noopener noreferrer">
+            <button>View Streamlite!</button>
+        </a>
+    </div>
+
+    <div class="container">
+        <img src="../static/gitsm.png" alt="Image 3">
+        <h2>MY GITHUB</h2>
+        <p>There you can see my entire project, including Jupiter, Flask, Streamlit code, etc.</p>
+        <a href="https://github.com/Svbudygin/project_of_car_prices/tree/main" target="_blank"
+           rel="noopener noreferrer">
+            <button>View GIT!</button>
+        </a>
+    </div>
+</div>
+
+
+{% endblock %}
