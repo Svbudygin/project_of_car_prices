@@ -6,7 +6,7 @@ Project was created by **Sergei Budygin**
 
 ### Link to the project
 [https://projectofcarprices-6dxgaarb9tgumjhp2eeyey.streamlit.app](https://projectofcarprices-6dxgaarb9tgumjhp2eeyey.streamlit.app) - Streamlit <br>
-http://195.2.67.72:8000 - Flask example
+http://195.2.67.72:8000 - Flask
 
 ### Data set: 
 https://www.kaggle.com/datasets/ekibee/car-sales-information/data
