@@ -34,6 +34,7 @@ st.text(open(gr4).read())
 
 try:
     import matplotlib as plt
+    data = pd.read_csv('new1.csv')
     fig, ax = plt.pyplot.subplots()
     ax = data.loc[data.brand == 'Suzuki', 'year'].plot(kind='hist', alpha=0.4, label='Suzuki')
     data.loc[data.brand == 'Kia', 'year'].plot(kind='hist', alpha=0.2, ax=ax, label='Kia')
