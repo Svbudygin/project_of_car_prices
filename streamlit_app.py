@@ -44,7 +44,7 @@ try:
     plt.pyplot.legend()
     st.pyplot(fig)
 except:
-    st.image(paintings[4], use_column_width=True)
+    pass
 
 st.text(open(gr56).read())
 st.image(paintings[5], use_column_width=True)
