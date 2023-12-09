@@ -32,19 +32,18 @@ st.image(paintings[1], use_column_width=True)
 st.image(paintings[2], use_column_width=True)
 st.text(open(gr4).read())
 
-try:
-    import matplotlib as plt
-    data = pd.read_csv('new1.csv')
-    fig, ax = plt.pyplot.subplots()
-    ax = data.loc[data.brand == 'Suzuki', 'year'].plot(kind='hist', alpha=0.4, label='Suzuki')
-    data.loc[data.brand == 'Kia', 'year'].plot(kind='hist', alpha=0.2, ax=ax, label='Kia')
-    data.loc[data.brand == 'Skoda', 'year'].plot(kind='hist', alpha=0.4, ax=ax, label='Skoda')
-    ax.yaxis.set_label_text('Quantity')
-    ax.set_title('The quantity of Suzuki, Skoda, and Kia on the market.')
-    plt.pyplot.legend()
-    st.pyplot(fig)
-except:
-    pass
+
+import matplotlib as plt
+data = pd.read_csv('new1.csv')
+fig, ax = plt.pyplot.subplots()
+ax = data.loc[data.brand == 'Suzuki', 'year'].plot(kind='hist', alpha=0.4, label='Suzuki')
+data.loc[data.brand == 'Kia', 'year'].plot(kind='hist', alpha=0.2, ax=ax, label='Kia')
+data.loc[data.brand == 'Skoda', 'year'].plot(kind='hist', alpha=0.4, ax=ax, label='Skoda')
+ax.yaxis.set_label_text('Quantity')
+ax.set_title('The quantity of Suzuki, Skoda, and Kia on the market.')
+plt.pyplot.legend()
+st.pyplot(fig)
+
 
 st.text(open(gr56).read())
 st.image(paintings[5], use_column_width=True)
