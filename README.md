@@ -5,8 +5,8 @@ Project was created by **Sergei Budygin**
 ## Group DSBA231-1
 
 ### Link to the project
-[https://projectofcarprices-6dxgaarb9tgumjhp2eeyey.streamlit.app](https://projectofcarprices-6dxgaarb9tgumjhp2eeyey.streamlit.app) - Streamlit <br>
-http://195.2.67.72:8000 - Flask
+https://projectofcarprices-6dxgaarb9tgumjhp2eeyey.streamlit.app - Streamlit <br>
+http://195.133.1.81:8000 - Flask
 
 ### Data set: 
 https://www.kaggle.com/datasets/ekibee/car-sales-information/data
