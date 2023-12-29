@@ -5,7 +5,7 @@ Project was created by **Sergei Budygin**
 ## Group DSBA231-1
 
 ### Link to the project
-https://projectofcarprices-6dxgaarb9tgumjhp2eeyey.streamlit.app - Streamlit <br>
+[https://projectofcarprices-6dxgaarb9tgumjhp2eeyey.streamlit.app](https://projectofcarprices-6dxgaarb9tgumjhp2eeyey.streamlit.app) - Streamlit <br>
 http://195.133.1.81:8000 - Flask
 
 ### Data set: 
